@@ -24,6 +24,7 @@ import mine.liu.com.myshopcart.R;
 public class MyAdapter extends BaseExpandableListAdapter implements CompoundButton.OnCheckedChangeListener, View.OnClickListener {
 
     private List<ShopCart> mGroup;
+
     private List<List<ShopCart.Cart>> mChild;
     private Context context;
     private CheckBox activiBox;
