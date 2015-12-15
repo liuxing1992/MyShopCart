@@ -1,0 +1,47 @@
+<resources>
+	<color name="none_color">#00000000</color>
+    <color name="bule_overlay">#660D92DD</color>
+    <!-- 标题颜色 -->
+    <color name="title_bg">#FB75A8</color>
+    <color name="title_bg_huise">#FFFFFF</color>
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 城市标题 背景 -->
+    <color name="city_title_bg">#eeeeee</color>
+    <!-- 城市名字 -->
+    <color name="city_name">#666666</color>
+ <color name="background_tab_pressed">#8833B5E5</color>
+    <!-- 城市字母 -->
+    <color name="city_letter">#333333</color>
+    <color name="list_bg">#f2f2f2</color>
+    <color name="bind_cancel_press">#ffd65284</color>
+    <color name="expert_top_tv_normal">#ffef71a1</color>
+    <color name="bind_cancel_press1">#ff7a7979</color>
+    <color name="bind_cancel">#ff999999</color>
+    <color name="gray_f0f0f0">#f0f0f0</color>
+    <!-- 首页线条 -->
+    <color name="view_hui">#cccccc</color>
+    <color name="view_eeeeee">#eeeeee</color>
+    <!-- 首页文字颜色 -->
+    <color name="color_333333">#333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_ababab">#ababab</color>
+    <color name="color_d5d5d5">#d5d5d5</color>
+    <color name="color_dbdbdb">#dbdbdb</color>
+    <color name="color_eaeaea">#eaeaea</color>
+    <color name="color_ededed">#ededed</color>
+    <!-- 首页分类颜色 -->
+    <color name="color_fa8080">#fa8080</color>
+    <color name="color_58e0d7">#58e0d7</color>
+    <color name="color_fb75a8">#FB75A8</color>
+    <color name="color_ff3a30">#ff3a30</color>
+    <color name="text_black">#000000</color>
+    <color name="line_gray">#E0E0E0</color>
+<color name="color_cccccc">#cccccc</color>
+<color name="transparent">#00000000</color>
+<color name="tab_sele_text_color">#fb75a8</color>
+
+</resources>

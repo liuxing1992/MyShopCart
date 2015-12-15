@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyShopCart</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit">编辑</string>
+    <string name="shop_title">购物车(%s)</string>
+    <string name="count_money">合计：￥%s</string>
+    <string name="count_goods">结算（%s）</string>
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <CheckBox
+            android:id="@+id/dot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:button="@drawable/check_bg" />
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/dot2"
+            android:src="@drawable/bg" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/imageview"
+            android:maxLength="15"
+            android:text="IF 2015早春新款涂..."
+            android:textColor="@color/color_333333"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/content"
+            android:layout_below="@+id/content"
+            android:layout_marginTop="5dp"
+            android:text="颜色:黑色"
+            android:textColor="@color/color_333333"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/color"
+            android:text="尺码:M"
+            android:textColor="@color/color_333333"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/content"
+            android:layout_below="@+id/color"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/imageview"
+            android:background="@drawable/cursor5"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/subdele"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/cursor7"
+                android:focusable="false"
+                android:text="-"
+                android:textColor="@color/color_333333" />
+
+            <TextView
+                android:id="@+id/num_edit"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:background="@null"
+                android:gravity="center"
+                android:lines="1"
+                android:maxLength="2"
+                android:text="1"
+                android:textColor="@color/color_333333" />
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/cursor6"
+                android:focusable="false"
+                android:text="+"
+                android:textColor="@color/color_333333" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/content"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/content"
+            android:gravity="right"
+            android:maxLength="9"
+            android:text="￥69.00"
+            android:textColor="#FE529C"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/delete2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/price"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_delete" />
+    </RelativeLayout>
+
+</RelativeLayout>
